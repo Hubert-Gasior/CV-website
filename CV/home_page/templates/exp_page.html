@@ -1,11 +1,80 @@
+{% load static %}
 <html>
     <head>
-        <tittle></tittle>
+        <link rel="stylesheet" href="{% static 'CV_style.css' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-        <h1>O mnie</h1>
+
     <body>
-        <p1>mam tyle doswiadczenia ze nawet nie ogarniesz</p1>
-    <br>
-    <a href="/home_page">home</a>
+
+
+        <ul class="menu">
+            <li><a href="/home_page">Home</a></li>
+            <li><a href="/home_page/exp_page/hobby_page/">Hobby</a></li>
+            <li><a href="/home_page/exp_page/qualities_page/">Qualities</a></li>
+        </ul>
+
+        <div class="header"><h1>Curriculum Vitae</h1></div>
+
+        <div class="CV">
+            <div class="left">
+                <div class="image"><img src="{% static 'twarz_bez_tla.png' %}"></div>
+                <name> Hubert Gąsior</name>
+                <br>
+                <name>E-mail: </name> h.gasior7@gmail.com
+                <br>
+                <name>Telefon: </name> +48 500 230 391
+                <br>
+                <br>
+                <name>Doświadczenie:</name>
+                <ul>
+                    <li>Projekt gry karcianej Black Jack na mikrokontrolerze ATmega 328PB</li>
+                    <li>Projekt strony internetowej „O Mnie”</li>
+                    <li>Praca na stanowisku specjalista obsługi klienta w BP 02.07.2021 – obecnie</li>
+                    <li>Dorywczy pracownik techniczny przy organizacji wydarzeń</li>
+                </ul>
+                <br>
+                <br>
+                <name>Zainteresowania:</name>
+                <ul>
+                    <li>Podróże</li>
+                    <li>Wspinaczka górska</li>
+                </ul>
+            </div>
+            <div class="right">
+                <name>Profil Zawodowy:</name> 
+                <br>
+                Ambitny student 2 roku Elektroniki i Telekomunikacji na Wydziale Informatyki Elektroniki i Telekomunikacji na AGH. Poszukujący możliwości zdobycia nowego doświadczenia poprzez staż lub praktykę.
+                <br>
+                <br>
+                <name>Umiejętności:</name>
+                <ul>
+                    <li><name>Zawodowe:</name>
+                    <ul>
+                        <li>Podstawowa znajomość języka C++, Python, Julia, MATLAB </li>
+                        <li>Podstawowa znajomość systemu operacyjnego Linux</li>
+                        <li>Podstawowa wiedza i umiejętność analizy układów elektronicznych</li>
+                        <li>Podstawowa wiedza z zakresu techniki cyfrowej</li>
+                        <li>Podstawowa wiedza z zakresu sieci komputerowych</li>
+                    </ul></li>
+                    <li><name>Jęzk obcy:</name>
+                    <ul>
+                        <li>Znajomość języka Angielskiego na poziomie B2</li>
+                    </ul></li>
+                    <li><name>Interpersonalne:</name>
+                    <ul>
+                        <li>Analityczne i logiczne myślenie</li>
+                        <li>Komunikatywność</li>
+                        <li>Kreatywność i innowacyjność</li>
+                        <li>Poczucie odpowiedzialności</li>
+                    </ul></li>
+                    <li><name>Inne:</name>
+                    <ul>
+                        <li>Prawo jazdy kategorii B</li>
+                    </ul></li>
+                </ul>
+            </div>
+        </div>
+        <br>
     </body>
 </html>
