@@ -1,5 +1,7 @@
 # Moje CV - Strona Internetowa w Django
 
+Autor: Hubert Gąsior
+
 Strona internetowa prezentująca moje CV, stworzona z wykorzystaniem frameworka **Django**, **HTML** oraz **CSS**. Strona jest responsywna i zawiera informacje o moim doświadczeniu zawodowym, umiejętnościach, projektach oraz dane kontaktowe.
 
 ---
