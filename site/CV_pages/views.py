@@ -17,7 +17,3 @@ def hobby_page(request):
 def qualities_page(request):
     template = loader.get_template('qualities_page.html')
     return HttpResponse(template.render())
-
-#def test_page(request):
-#    template = loader.get_template('test_page.html')
-#    return HttpResponse(template.render())
