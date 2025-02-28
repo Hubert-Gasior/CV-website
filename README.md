@@ -1,4 +1,4 @@
-#Moje CV - Strona Internetowa w Django
+# Moje CV - Strona Internetowa w Django
 
 Strona internetowa prezentująca moje CV, stworzona z wykorzystaniem frameworka **Django**, **HTML** oraz **CSS**. Strona jest responsywna i zawiera informacje o moim doświadczeniu zawodowym, umiejętnościach, projektach oraz dane kontaktowe.
 
@@ -8,7 +8,7 @@ Strona internetowa prezentująca moje CV, stworzona z wykorzystaniem frameworka 
 
 [Zobacz stronę na żywo](https://twoja-strona.herokuapp.com)
 -->
-##Funkcje
+## Funkcje
 
 <!--- **Responsywny design**: Działa dobrze na komputerach, tabletach i urządzeniach mobilnych. -->
 - **Sekcja "O mnie"**: Krótkie bio i zdjęcie profilowe.
@@ -18,7 +18,7 @@ Strona internetowa prezentująca moje CV, stworzona z wykorzystaniem frameworka 
 
 ---
 
-##Stos technologiczny
+## Stos technologiczny
 
 - **Django**: Framework backendowy w Pythonie.
 - **HTML5 & CSS3**: Tworzenie szablonów i stylizacja.
