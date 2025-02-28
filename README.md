@@ -13,8 +13,8 @@ Strona internetowa prezentująca moje CV, stworzona z wykorzystaniem frameworka 
 <!--- **Responsywny design**: Działa dobrze na komputerach, tabletach i urządzeniach mobilnych. -->
 - **Sekcja "O mnie"**: Krótkie bio i zdjęcie profilowe.
 - **Doświadczenie zawodowe**: Przedstawione miejsc pracy oraz wykonanych projektów.
-- **Umiejętności**: 
-- **Zainteresowania**: 
+- **Umiejętności**: Opis nabytych umiejętności.
+- **Zainteresowania**: Co robię w wolnym czasie.
 
 ---
 
