@@ -1,0 +1,51 @@
+{% load static %}
+
+<html lang="pl">
+    <head>
+        <title>Hubert Gąsior CV</title>
+        <link rel="stylesheet" href="{% static 'css/home_style.css' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="keywords"content="CV Hubert Gąsior">
+        <meta name="description" content="CV Hubert Gąsior">
+        <meta name="author" content="Hubert Gąsior">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="img">
+                <img src="{% static 'img/twarz_bez_tla_450_574.png' %}" style="max-width: 60%">
+                <name>Hubet Gąsior</name>
+                <name>E-mail: h.gasior7@gmail.com</name>
+                <name>Tel: 500 230 391 </name>
+                <br>
+                <name>Ambitny student 3 roku Elektroniki i Telekomunikacji na Wydziale Informatyki Elektroniki i Telekomunikacji na AGH.</name>
+                <br> 
+                <name>Poszukujący możliwości zdobycia nowego doświadczenia poprzez staż lub praktykę.</name>
+            </div>
+
+            <div class="menu">
+                <ul class="nav">
+                    <li><a href="/home_page"><bold>O Mnie</bold></a></li>
+                    <li><a href="/home_page/exp_page"><bold>Doświadczenie</bold></a></li>
+                    <li><a href="/home_page/qualities_page/"><bold>Umiejętności</bold></a></li>
+                    <li><a href="/home_page/hobby_page/"><bold>Zainteresowania</bold></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <div class="github">        
+                <a href="https://github.com/Hubert-Gasior" target="_blank"><img src="{% static 'img/s_github.png' %}" alt="GitHub - Hubert Gąsior"></a>
+                <br>
+                <a href="https://github.com/Hubert-Gasior" target="_blank">GitHub - Hubert Gąsior</a>
+            </div>
+
+            <div class="linkdin">
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank"><img src="{% static 'img/s_linkdin.png' %}" alt="Linkdin - Hbert Gąsior"></a>
+                <br>
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank">Linkedin - Hubert Gąsior</a>
+            </div>
+        </footer>
+    </body>
+</html>

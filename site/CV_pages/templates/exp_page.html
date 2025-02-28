@@ -1,0 +1,53 @@
+{% load static %}
+
+<html lang="pl">
+    <head>
+        <title>Experience Hubert Gąsior</title>
+        <link rel="stylesheet" href="{% static 'css/exp_style.css' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="keywords"content="CV Hubert Gąsior">
+        <meta name="description" content="CV Hubert Gąsior">
+        <meta name="author" content="Hubert Gąsior">
+    </head>
+    
+    <body> 
+        <ul class="menu">
+            <li><a href="/home_page"><bold>O Mnie</bold></a></li>
+            <li><a href="/home_page/exp_page"><bold>Doświadczenie</bold></a></li>
+            <li><a href="/home_page/qualities_page/"><bold>Umiejętności</bold></a></li>
+            <li><a href="/home_page/hobby_page/"><bold>Zainteresowania</bold></a></li>
+        </ul>
+
+        <div class="header"><h1><bold>Doświadczenie</bold></h1></div>
+        
+        <div class="table">
+            <ul>
+                <li><bold>Projekty studenckie</bold></li>
+                <ul>
+                    <li>Kalkulator dla informatyków/elektroników w języku C++</li>
+                    <li>Czat grupowy na systemie linux</li>
+                    <li>Gra zręcznościowa "labirynt" na mikrokontrolerze KL05Z oraz raspberry Pi Pico</li>
+                    <li>Gra karciana "Black" Jack na mikrokontrolerze ATmega 328PB</li>
+                    <li>Strona internetowej „O Mnie”</li>
+                </ul>
+                <li>Praca na stanowisku specjalista obsługi klienta w BP od 02.07.2021 – obecnie</li>
+                <li>Dorywczy pracownik techniczny przy organizacji wydarzeń</li>
+            </ul>
+        </div>
+
+        <footer>
+            <div class="github">        
+                <a href="https://github.com/Hubert-Gasior" target="_blank"><img src="{% static 'img/s_github.png' %}" alt="GitHub - Hubert Gąsior"></a>
+                <br>
+                <a href="https://github.com/Hubert-Gasior" target="_blank">GitHub - Hubert Gąsior</a>
+            </div>
+
+            <div class="linkdin">
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank"><img src="{% static 'img/s_linkdin.png' %}" alt="Linkdin - Hbert Gąsior"></a>
+                <br>
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank">Linkedin - Hubert Gąsior</a>
+            </div>
+        </footer>
+    </body>
+</html>

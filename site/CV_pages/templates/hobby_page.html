@@ -1,0 +1,54 @@
+{% load static %}
+
+<html lang="pl">
+    <head>
+        <title>Hobby Hubert Gąsior</title>
+        <link rel="stylesheet" href="{% static 'css/hobby_style.css' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="keywords"content="CV Hubert Gąsior">
+        <meta name="description" content="CV Hubert Gąsior">
+        <meta name="author" content="Hubert Gąsior">
+    </head>
+
+    <body> 
+        <ul class="menu">
+            <li><a href="/home_page"><bold>O Mnie</bold></a></li>
+            <li><a href="/home_page/exp_page"><bold>Doświadczenie</bold></a></li>
+            <li><a href="/home_page/qualities_page/"><bold>Umiejętności</bold></a></li>
+            <li><a href="/home_page/hobby_page/"><bold>Zainteresowania</bold></a></li>
+        </ul>
+
+        <div class="header"><h1><bold>Zainteresowania</bold></h1></div>
+
+        <div class="table">
+            <bold>Podróże</bold>
+            <br>
+            <br>
+            <img src="{% static 'img/grecja_flaga_mala.png' %}">
+            <img src="{% static 'img/statek_maly.jpg' %}">
+            <img src="{% static 'img/como_male.jpg' %}">
+            <br>
+            <bold>Wspinaczka górska</bold>
+            <br>
+            <br>
+            <img src="{% static 'img/babia_mala.jpg' %}">
+            <img src="{% static 'img/lubon_maly.png' %}">
+            <img src="{% static 'img/mogielnica_mala.jpg' %}">
+        </div>
+        
+        <footer>
+            <div class="github">        
+                <a href="https://github.com/Hubert-Gasior" target="_blank"><img src="{% static 'img/s_github.png' %}" alt="GitHub - Hubert Gąsior"></a>
+                <br>
+                <a href="https://github.com/Hubert-Gasior" target="_blank">GitHub - Hubert Gąsior</a>
+            </div>
+
+            <div class="linkdin">
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank"><img src="{% static 'img/s_linkdin.png' %}" alt="Linkdin - Hbert Gąsior"></a>
+                <br>
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank">Linkedin - Hubert Gąsior</a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+{% load static %}
+
+<html lang="pl">
+    <head>
+        <title>Qualities Hubert Gąsior</title>
+        <link rel="stylesheet" href="{% static 'css/qualities_style.css' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="keywords"content="CV Hubert Gąsior">
+        <meta name="description" content="CV Hubert Gąsior">
+        <meta name="author" content="Hubert Gąsior">
+    </head>
+
+    <body>
+        <ul class="menu">
+            <li><a href="/home_page"><bold>O Mnie</bold></a></li>
+            <li><a href="/home_page/exp_page"><bold>Doświadczenie</bold></a></li>
+            <li><a href="/home_page/qualities_page/"><bold>Umiejętności</bold></a></li>
+            <li><a href="/home_page/hobby_page/"><bold>Zainteresowania</bold></a></li>
+        </ul>
+
+        <div class="header"><h1><bold>Umiejętności</bold></h1></div>
+
+        <div class="table">
+                <bold>Zawodowe:</bold>
+                <ul>
+                    <li>Znajomość języków programowania:</li>
+                        <ul>
+                            <li>C/C++</li>
+                            <li>Python</li> 
+                            <li>Julia</li>
+                            <li>MATLAB</li>
+                        </ul>
+                    <li>Podstawowa znajomość systemu operacyjnego Linux</li>
+                    <li>Wiedza i umiejętności analizy układów elektronicznych</li>
+                    <li>Wiedza z zakresu techniki cyfrowej</li>
+                    <li>Wiedza z zakresu sieci komputerowych</li>
+                </ul>            
+                <bold>Język obcy:</bold>
+                <ul>
+                    <li>Znajomość języka Angielskiego na poziomie B2</li>
+                </ul>
+                <bold>Interpersonalne:</bold>
+                <ul>
+                    <li>Analityczne i logiczne myślenie</li>
+                    <li>Komunikatywność</li>
+                    <li>Kreatywność i innowacyjność</li>
+                    <li>Poczucie odpowiedzialności</li>
+                </ul>
+                <bold>Inne:</bold>
+                <ul>
+                    <li>Prawo jazdy kategorii B</li>
+                </ul>
+        </div>
+
+        <footer>
+            <div class="github">        
+                <a href="https://github.com/Hubert-Gasior" target="_blank"><img src="{% static 'img/s_github.png' %}" alt="GitHub - Hubert Gąsior"></a>
+                <br>
+                <a href="https://github.com/Hubert-Gasior" target="_blank">GitHub - Hubert Gąsior</a>
+            </div>
+
+            <div class="linkdin">
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank"><img src="{% static 'img/s_linkdin.png' %}" alt="Linkdin - Hbert Gąsior"></a>
+                <br>
+                <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/" target="_blank">Linkedin - Hubert Gąsior</a>
+            </div>
+        </footer>
+    </body>
+</html>

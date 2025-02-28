@@ -1,0 +1,63 @@
+{% load static %}
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="{% static 'css_test.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tło CSS</title>
+</head>
+<body>
+    <div class="main">
+        <div class="img">
+            <img src="{% static 'twarz_bez_tla_450_574.png' %}" style="max-width: 60%">
+            <name>Ambitny student 3 roku Elektroniki i Telekomunikacji na Wydziale Informatyki Elektroniki i Telekomunikacji na AGH.</name>
+            <br> 
+            <name>Poszukujący możliwości zdobycia nowego doświadczenia poprzez staż lub praktykę.</name>
+        </div>
+        <div class="menu">
+            <ul class="nav">
+                <!--
+                <li><bold>Umiejętności</bold></li>
+                <li><bold>Doświadczenie</bold></li>
+                <li><bold>Zainteresowania</bold></li>
+                <li><bold>Dane kontaktowe</bold></li>
+            -->
+                <li><a href="/home_page"><bold>O Mnie</bold></a></li>
+                <li><a href="/home_page/exp_page"><bold>Doświadczenie</bold></a></li>
+                <li><a href="/home_page/qualities_page/"><bold>Umiejętności</bold></a></li>
+                <li><a href="/home_page/hobby_page/"><bold>Zainteresowania</bold></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="github">        
+            <a href="https://github.com/Hubert-Gasior"><img src="{% static 's_github.png' %}" alt="GitHub - Hubert Gąsior"></a>
+            <br>
+            <a href="https://github.com/Hubert-Gasior">GitHub - Hubert Gąsior</a>
+        </div>
+        <div class="linkdin">
+            <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/"><img src="{% static 's_linkdin.png' %}" alt="Linkdin - Hbert Gąsior"></a>
+            <br>
+            <a href="https://www.linkedin.com/in/hubert-g%C4%85sior-496918323/">Linkdin - Hubert Gąsior</a>
+        </div>
+    </footer>
+    <!--
+    <div class="about">
+        <bold>O Mnie</bold>
+    </div>
+    <div class="qualities">
+        <bold>Umiejętności</bold>
+    </div>
+    <div class="exp">
+        <bold>Doświadczenie</bold>
+    </div>
+    <div class="hobby">
+        <bold>Zainteresowania</bold>
+    </div>
+    <div class="contacts">
+        <bold>Dane kontaktowe</bold>
+    </div>
+-->
+</body>
+</html>
